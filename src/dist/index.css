@@ -6,7 +6,8 @@
 
 body {
   padding: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 0;
 }
 
@@ -20,7 +21,7 @@ body {
   grid-template-areas: "image sidebar" "slider sidebar";
 }
 .container .image {
-  background-image: url("/src/images/IMG_20230219_192327.jpg");
+  background-image: url("../images/adam-kool-ndN00KmbJ1c-unsplash.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -41,7 +42,8 @@ body {
   position: relative;
   transition: hover 0.5s;
 }
-.container .sidebars .sidebar:hover, .container .sidebars .sidebar:focus {
+.container .sidebars .sidebar:hover,
+.container .sidebars .sidebar:focus {
   background: rgba(45, 155, 199, 0.7);
   color: white;
   cursor: pointer;
@@ -74,4 +76,4 @@ body {
   font-weight: lighter;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */

@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react"
 
 export default function Image({edit}) {
-  return (
-   <div className="image" style={edit()}>image</div>
-  )
+  return <div className="image" style={edit()}></div>
 }

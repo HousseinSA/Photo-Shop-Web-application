@@ -1,5 +1,3 @@
-import React from "react"
-
 export default function Slider({name, min, max, value, handelChange}) {
   return (
     <div className="slider-container">

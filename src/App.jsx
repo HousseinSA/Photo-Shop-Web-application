@@ -97,16 +97,15 @@ export default function App() {
       })
     })
   }
-  function syledImage() {
+  function styliedImage() {
     const filters = options.map((option) => {
       return `${option.property}(${option.value}${option.unit})`
     })
     return {filter: filters.join(" ")}
   }
-
   return (
     <div className="container">
-      <Image edit={syledImage} />
+      <Image edit={styliedImage} />
       <div className="sidebars">
         {options.map((option, index) => {
           return (
